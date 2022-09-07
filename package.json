@@ -1,23 +1,22 @@
 {
-  "name": "webpack",
+  "name": "leaderboard",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "scripts": {
-    "test": "jest",
     "start": "webpack serve --open",
     "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iAmWaris97/webpack.git"
+    "url": "git+https://github.com/iAmWaris97/Leaderboard.git"
   },
-  "author": "Waris Haleem and Gustavo Porcilio",
+  "author": "Waris Haleem",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iAmWaris97/webpack/issues"
+    "url": "https://github.com/iAmWaris97/Leaderboard/issues"
   },
-  "homepage": "https://github.com/iAmWaris97/index.html",
+  "homepage": "https://github.com/iAmWaris97/Leaderboard/index.html",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
@@ -26,7 +25,6 @@
     "eslint-plugin-import": "^2.26.0",
     "hint": "^7.1.1",
     "html-webpack-plugin": "^5.5.0",
-    "jest": "^29.0.1",
     "style-loader": "^3.3.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
