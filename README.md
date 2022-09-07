@@ -1,25 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do list: Unit test
+# Leaderboard: setup project
 
-> In this repo I am testing the TODO list project using jest automatic testing tool!
+> In this repo I am setting up the Leaderboard project.
 
-![Project Screenshot](./project-snapshot.PNG "Capstone")
-
-I have implemented CRUD operations in this TODO list app, and here I am implementing the unit test for the same.
+I am configuring the GitFlow, webpack, and linters in this stage and will write basic HTML and CSS necessary for the project.
 
 ## Built With
 
 - HTML
 - CSS
 - JavaScript
-- FontAwesome
 - webpack
-- jest
+- -GitFlow
 
 ## Live Demo
 
-[Live Demo Link](https://iamwaris97.github.io/todo-unit-test/)
+[Live Demo Link](https://iamwaris97.github.io/Leaderboard/)
 
 
 ## Getting Started
@@ -28,11 +25,11 @@ I have implemented CRUD operations in this TODO list app, and here I am implemen
 
 -Clone this repository with
 
-<code>git clone https://github.com/iAmWaris97/todo-unit-test</code> using your terminal or command line.
+<code>git clone https://github.com/iAmWaris97/Leaderboard</code> using your terminal or command line.
 
 -Change to the project directory by entering:
 
-<code>cd todo-unit-test</code> in the terminal.
+<code>cd Leaderboard</code> in the terminal.
 
 -run <code>code . </code>to open it in VSCode
 
@@ -50,7 +47,7 @@ I have implemented CRUD operations in this TODO list app, and here I am implemen
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/iAmWaris97/todo-unit-test/issues).
+Feel free to check the [issues page](https://github.com/iAmWaris97/Leaderboard/issues).
 
 ## Show your support
 
