@@ -47,6 +47,7 @@ header {
   border: 1px solid #89cffd;
   color: #fff;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .scores-table {
