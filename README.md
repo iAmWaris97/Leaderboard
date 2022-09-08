@@ -6,6 +6,8 @@
 
 I am configuring the GitFlow, webpack, and linters in this stage and will write basic HTML and CSS necessary for the project.
 
+![Project Screenshot](./snapshot.PNG "Leaderboard")
+
 ## Built With
 
 - HTML
