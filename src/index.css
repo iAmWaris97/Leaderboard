@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+header {
+  text-align: center;
+  margin: 5% 0 3% 0;
+  font-family: fantasy;
+  letter-spacing: 3px;
+}
+
+.container {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  background-color: #fff4cf;
+  padding: 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.recent-scores {
+  width: 50%;
+}
+
+.recent-scores p,
+.add-score p {
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #25316d;
+}
+
+#refresh,
+#submit {
+  background-color: #ff7f3f;
+  margin: 0 0 5px 10px;
+  padding: 5px 15px;
+  border: 1px solid #89cffd;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.scores-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fef5ac;
+}
+
+thead {
+  background-color: #25316d;
+  color: #fdfdfd;
+}
+
+tbody tr {
+  color: #25316d;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+tr:nth-child(even) {
+  background-color: #97d2ec;
+}
+
+th {
+  text-decoration: underline;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+.add-score {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  display: block;
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 2px solid #25316d;
+}
+
+#submit {
+  float: right;
+}
