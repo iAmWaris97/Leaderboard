@@ -9,7 +9,7 @@ li {
 
 body {
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
-  background-color: #F7F6DC;
+  background-color: #f7f6dc;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 }
 
 #heart {
-  font-size: x-large  ;
+  font-size: x-large;
   color: red;
 }
 
@@ -58,6 +58,10 @@ header {
   color: #fff;
   cursor: pointer;
   border-radius: 20px;
+}
+
+#submit {
+  float: right;
 }
 
 #refresh:hover,
@@ -118,8 +122,4 @@ form input {
 #name,
 #score {
   background-color: #fef5ac;
-}
-
-#submit {
-  float: right;
 }
