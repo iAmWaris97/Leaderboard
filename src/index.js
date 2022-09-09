@@ -22,4 +22,8 @@ submit.addEventListener('click', async () => {
   const competentScore = new Score(competent, marks);
   await consumeAPI.printScore(actualURL, myID, JSON.stringify(competentScore));
   tableData(actualURL, myID);
+  const inputs = document.querySelectorAll('#name, #score');
+  inputs.forEach((input) => {
+    input.value = '';
+  });
 });

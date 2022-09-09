@@ -9,6 +9,7 @@ li {
 
 body {
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  background-color: #f7f6dc;
 }
 
 header {
@@ -16,6 +17,11 @@ header {
   margin: 5% 0 3% 0;
   font-family: fantasy;
   letter-spacing: 3px;
+}
+
+#heart {
+  font-size: x-large;
+  color: red;
 }
 
 .container {
@@ -26,6 +32,8 @@ header {
   padding: 10px;
   border-radius: 3px;
   box-sizing: border-box;
+  border: 2px solid #25316d;
+  box-shadow: 10px 5px 100px #ff7f3f;
 }
 
 .recent-scores {
@@ -52,11 +60,22 @@ header {
   border-radius: 20px;
 }
 
+#submit {
+  float: right;
+}
+
+#refresh:hover,
+#submit:hover {
+  transform: scale(1.1);
+  background-color: #25316d;
+}
+
 .scores-table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
   background-color: #fef5ac;
+  border: 1px solid #25316d;
 }
 
 thead {
@@ -100,6 +119,7 @@ form input {
   border: 2px solid #25316d;
 }
 
-#submit {
-  float: right;
+#name,
+#score {
+  background-color: #fef5ac;
 }
